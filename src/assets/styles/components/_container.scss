@@ -1,0 +1,22 @@
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+
+  &__no-padding {
+    padding: 0;
+  }
+
+  &__centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    flex-direction: column;
+  }
+
+  &__padding {
+    padding-top: 300px;
+  }
+}
